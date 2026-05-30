@@ -13,9 +13,9 @@ const data = {
     github: "https://github.com/komaljatiya123",
   },
   education: [
-    { degree: "B.Tech – Information Technology", institution: "SGSITS, Indore", year: "Expected 2026", score: "CGPA: 7.44 (up to 7th Sem)" },
-    { degree: "Diploma – Computer Science & Engineering", institution: "Shri Vaishnav Polytechnic College, Indore", year: "2023", score: "CGPA: 8.14" },
-    { degree: "Higher Secondary (10th)", institution: "Brilliant Academy H.S. School, Indore", year: "2020", score: "74.6%" },
+    { degree: "B.Tech – Information Technology", institution: "SGSITS, Indore", year: "Expected 2026", score: "CGPA: 8.61 (up to 7th Sem)" },
+    { degree: "Diploma – Computer Science & Engineering", institution: "Shri Vaishnav Polytechnic College, Indore", year: "2023", score: "CGPA: 8.73" },
+    { degree: "Higher Secondary (10th)", institution: "Brilliant Academy H.S. School, Indore", year: "2020", score: "89.5%" },
   ],
   achievement: "All India Rank 922 in lateral entry admission based on Diploma CGPA of 8.14",
   projects: [
