@@ -18,6 +18,51 @@ const data = {
   ],
   achievement: "All India Rank 922 in lateral entry admission based on Diploma CGPA of 8.14",
   projects: [
+
+    {
+  title: "Fake Profile Detection using Graph Neural Networks",
+  period: "Academic Project",
+  type: "AI / ML",
+  stack: ["Python", "Machine Learning", "Deep Learning", "Graph Neural Networks", "Data Analysis"],
+  points: [
+    "Developed an intelligent system to detect fake social media profiles using Graph Neural Networks (GNNs).",
+    "Modeled social networks as graph structures where users represented nodes and interactions represented edges.",
+    "Analyzed user behavior, relationship patterns, and suspicious account activities through graph-based learning techniques.",
+    "Improved fake profile identification accuracy by leveraging network connectivity and behavioral insights."
+  ],
+  color: "#FF6B6B",
+  link: null,
+},
+{
+  title: "Customer Cluster-Pro – ML-Based Customer Segmentation",
+  period: "Machine Learning Project",
+  type: "AI / ML",
+  stack: ["Python", "Pandas", "NumPy", "scikit-learn", "K-Means Clustering", "StandardScaler", "t-SNE", "Matplotlib"],
+  points: [
+    "Segmented 2,200+ customers into 5 behavioral groups based on income, marital status, and purchasing patterns.",
+    "Built a data preprocessing pipeline to handle missing values and normalize features using StandardScaler.",
+    "Optimized cluster selection using the Elbow Method for effective customer segmentation.",
+    "Visualized high-dimensional customer data using t-SNE to generate meaningful customer personas and insights."
+  ],
+  color: "#4ECDC4",
+  link: null,
+},
+{
+  title: "MERN Stack Task Manager Application",
+  period: "Full Stack Project",
+  type: "MERN Stack",
+  stack: ["MongoDB", "Express.js", "React.js", "Node.js", "JavaScript", "REST APIs"],
+  points: [
+    "Built a full-stack task management application using the MERN stack architecture.",
+    "Implemented task creation, updating, deletion, status tracking, and REST API integration.",
+    "Designed MongoDB-based data storage and managed seamless frontend-backend communication.",
+    "Strengthened understanding of CRUD operations, API testing, component-based UI design, and scalable project structure."
+  ],
+  color: "#45B7D1",
+  link: null,
+},
+
+
     {
       title: "AI-Powered Mental Health & Depression Support System",
       period: "Aug 2025 to Apr 2026",
