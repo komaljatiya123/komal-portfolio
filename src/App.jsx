@@ -12,15 +12,15 @@ const data = {
     github: "https://github.com/komaljatiya123",
   },
   education: [
-    { degree: "B.Tech – Information Technology", institution: "SGSITS, Indore", year: "Expected 2026", score: "CGPA: 7.44 (up to 7th Sem)" },
-    { degree: "Diploma – Computer Science & Engineering", institution: "Shri Vaishnav Polytechnic College, Indore", year: "2023", score: "CGPA: 8.14" },
-    { degree: "Higher Secondary (10th)", institution: "Brilliant Academy H.S. School, Indore", year: "2020", score: "74.6%" },
+    { degree: "B.Tech in Information Technology", institution: "SGSITS, Indore", year: "Expected 2026", score: "CGPA: 8.61(up to 7th Sem)" },
+    { degree: "Diploma in  Computer Science & Engineering", institution: "Shri Vaishnav Polytechnic College, Indore", year: "2023", score: "CGPA: 8.73" },
+    { degree: "Higher Secondary (10th)", institution: "Brilliant Academy H.S. School, Indore", year: "2020", score: "89.5%" },
   ],
   achievement: "All India Rank 922 in lateral entry admission based on Diploma CGPA of 8.14",
   projects: [
     {
       title: "AI-Powered Mental Health & Depression Support System",
-      period: "Aug 2025 – Apr 2026",
+      period: "Aug 2025 to Apr 2026",
       type: "Team Project",
       stack: ["Python", "FastAPI", "React.js", "LLaMA 3", "Hugging Face", "MediaPipe", "Three.js", "MongoDB"],
       points: [
@@ -34,8 +34,8 @@ const data = {
       link: null,
     },
     {
-      title: "Official Club Website – #include",
-      period: "Feb 2025 – Apr 2025",
+      title: "Official Club Website  #include",
+      period: "Feb 2025 to Apr 2025",
       type: "Full Stack",
       stack: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "MongoDB"],
       points: [
@@ -47,11 +47,36 @@ const data = {
       link: "https://college-club-website.vercel.app/members.html",
     },
   ],
-  internships: [
+  Experience: [
+
+    {
+    role: "LLM Post-Training Intern",
+    company: "Ethara AI",
+    period: "Jan 2026 to Apr 2026",
+    points: [
+      "Worked on Large Language Model (LLM) post-training tasks, including RLHF and Supervised Fine-Tuning (SFT) evaluation workflows.",
+      "Evaluated AI-generated responses for instruction following, factual accuracy, reasoning quality, formatting, and visual consistency.",
+      "Performed prompt-response analysis and comparative evaluation for text, text-to-image, and multimodal AI systems.",
+      "Improved dataset quality by identifying hallucinations, weak reasoning, formatting issues, inconsistent outputs, and response errors.",
+      "Contributed to training data preparation, annotation workflows, content review, and AI model evaluation processes.",
+      "Collaborated with AI training teams to improve model alignment, response quality, and overall performance."
+    ],
+  },
+  {
+    role: "Backend Intern",
+    company: "Pixel Tech, Indore",
+    period: "May 2025 to Jul 2025",
+    points: [
+      "Worked on backend development tasks involving API integration, debugging, database operations, and implementation support.",
+      "Assisted in building and testing backend modules for user data management, request processing, and service integration.",
+      "Gained hands-on experience with GitHub workflows, codebase maintenance, issue resolution, and technical documentation.",
+      "Enhanced understanding of REST APIs, backend architecture, database handling, debugging techniques, and collaborative software development."
+    ],
+  },
     {
       role: "Salesforce Intern",
       company: "Techcoopers Software Solutions, Indore",
-      period: "Jun 2025 – Jul 2025",
+      period: "Jun 2025 to Jul 2025",
       points: [
         "Implemented core Salesforce CRM modules: leads, contacts, and accounts.",
         "Managed leads, opportunities, and workflow automation within the Salesforce environment.",
@@ -65,12 +90,78 @@ const data = {
     },
   ],
   skills: {
-    "Operating Systems": ["Windows", "Linux"],
-    "Languages": ["C", "Java", "Python"],
-    "Web Development": ["HTML", "CSS", "JavaScript", "Bootstrap", "MERN Stack", "Full Stack"],
-    "Frameworks": ["Node.js", "Express.js", "React.js", "FastAPI"],
-    "AI / ML": ["LLaMA 3", "Hugging Face", "DistilBERT", "RoBERTa", "MediaPipe", "LoRA"],
-    "Tools": ["Git", "GitHub", "MongoDB", "Salesforce CRM", "Canva"],
+     "Operating Systems": ["Windows", "Linux"],
+
+  "Languages": [
+    "C",
+    "C++",
+    "Python",
+    "SQL",
+    "TypeScript",
+    "PHP",
+    "JavaScript",
+    "HTML5",
+    "CSS3"
+  ],
+
+  "Web Development": [
+    "ReactJS",
+    "NodeJS",
+    "ExpressJS",
+    "Tailwind CSS",
+    "Bootstrap",
+    "REST APIs",
+    "Framer Motion"
+  ],
+
+  "Databases": [
+    "MongoDB",
+    "MySQL",
+    "Firebase"
+  ],
+
+  "AI / ML": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Deep Learning",
+    "Natural Language Processing (NLP)",
+    "Prompt Engineering",
+    "LLM Evaluation",
+    "Data Annotation",
+    "TensorFlow",
+    "PyTorch",
+    "NumPy",
+    "Pandas",
+    "Matplotlib",
+    "Snorkel AI",
+    "VADER NLP",
+    "K-Means Clustering",
+    "StandardScaler",
+    "Elbow Method",
+    "t-SNE"
+  ],
+
+  "Core CS": [
+    "Data Structures & Algorithms",
+    "Object-Oriented Programming (OOP)",
+    "Database Management Systems (DBMS)",
+    "Operating Systems",
+    "Software Engineering"
+  ],
+
+  "Cloud & Deployment": [
+    "AWS",
+    "Firebase",
+    "Vercel"
+  ],
+
+  "Tools": [
+    "Git",
+    "GitHub",
+    "VS Code",
+    "Flask",
+    "UUID"
+  ]
   },
   certifications: [
     "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional – Oracle University",
