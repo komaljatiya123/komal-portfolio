@@ -389,7 +389,7 @@ export default function Portfolio() {
       <section id="Experience" style={{ padding:"80px clamp(20px,8vw,120px)", background:"#F4F3FF" }}>
         <FadeIn><SectionTitle>Experience</SectionTitle></FadeIn>
         <div style={{ display:"flex", flexDirection:"column", gap:20 }}>
-          {data.internships.map((intern, i) => (
+          {data.Experience.map((intern, i) => (
             <FadeIn key={i} delay={i * 0.12}>
               <div className="card-hover" style={{ background:"#fff", borderRadius:18, padding:"26px 28px", border:"1px solid #E8E8E0", display:"flex", gap:20, flexWrap:"wrap" }}>
                 <div style={{ width:48, height:48, borderRadius:14, background:"linear-gradient(135deg,#7C6BEB22,#2EB8A011)", display:"flex", alignItems:"center", justifyContent:"center", fontSize:22, flexShrink:0 }}>💼</div>
